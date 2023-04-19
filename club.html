@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVGI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+          integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+          integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+          crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+
+
+<body style="background-color: whitesmoke;">
+  <div class="navv">
+    <nav>
+      <header>
+        <a href="" class="logo"> <img src="images/new-logo.png" alt="Logo"> </a>
+
+        <ul class="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li class="menu-item dropdown">
+            <a href="">About-us</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="dignitary_message.html">Dignitary Message</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="chaiman_message.html">Chairman Message</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="director_message.html">Director Message</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="treasure_message.html">Treasure Message</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="secretary_message.html">Secretary Message</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="engPrincipal_Message.html">Engineering Principal Message</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="pharmaPrincipal_Message.html">Pharmacy Principal Message</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="">Courses</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="enginnering-home.html">Engineering</a>
+                <ul class="side-list">
+                  <li class="side-item">
+                    <a href="CS.html">Computer Science Engineering</a>
+                  </li>
+                  <li class="side-item">
+                    <a href="IT.html">Information Technology </a>
+                  </li>
+                  <li class="side-item">
+                    <a href="EC.html">Electronics & Communication</a>
+                  </li>
+                  <li class="side-item">
+                    <a href="EX.html">Electrical & Electronics</a>
+                  </li>
+                  <li class="side-item">
+                    <a href="ME.html">Mechanical Engineering</a>
+                  </li>
+                  <li class="side-item">
+                    <a href="CE.html">Civil Engineering</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-item">
+                <a href="pharma.html">Pharmacy</a>
+                <ul class="side-list">
+                  <li class="side-item">
+                    <a href="pharmaceutical chemistry.html">Pharmaceutical Chemistry</a>
+                  </li>
+                  <li class="side-item">
+                    <a href="Pharmacognosy.html">Pharmacognosy</a>
+                  </li>
+                  <li class="side-item">
+                    <a href="Pharmacology.html">Pharmacology</a>
+                  </li>
+                  <li class="side-item">
+                    <a href="pharmaceutics.html">Pharmaceutics</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-item">
+                <a href="mba.html">MBA</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="">Facilities</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="Wifi.html">Smart-Wifi-Campus</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="smart_class.html">Smart-Class_rooms</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="canteen.html">Canteen</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="library.html">Library</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="transport.html">Transport-Facility</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="sports.html">Sports</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="events.html">Events</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="PLACEMENT.html">Placements</a></li>
+          <li><a href="https://forms.gle/7NLtVdr4upVomtVm9">Contact-Us</a></li>
+        </ul>
+
+        <div class="main">
+
+          <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+      </header>
+    </nav>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+
+  <section class="sv-tech-club" style="margin-top: 20px;">
+
+
+    <h2 style="text-align: center; letter-spacing: 2px; font-weight: 800; color: orange; text-decoration: underline; ">
+      SV ( THE TECH CLUB)_ </h2>
+
+    <div class="row" style="margin-top: 20px;">
+
+
+      <div class="col-lg-3 col-sm-3 col-md-3">
+        <div id="adhar-bro">
+          <div class="card-body" id="sidebar">
+            <a class="btnside" href="https://forms.gle/QMrGN76YAAkhsaqs5">
+              <button id="button-ad" class="bt"> Register for the club
+              </button>
+            </a>
+            <br>
+            <a class="btnside" href="events.html">
+              <button id="button-e" class="bt">EVENTS </button>
+            </a>
+            <br>
+
+            <br>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-6 col-md-6">
+        <p style="text-align: justify; font-size: 22px;">
+
+           SVCE has branched out to every genre aiming at concentrating the power of youth
+          towards innovation and development in their technical stream. One of the key objects of this club is to bridge
+          the gap between theory & industrial practice.
+
+          Various technical events are organized for the students, by the students to cater their craving in technology
+          which finally results in industry ready engineers.
+
+          This club plays an important role to the students for nurturing theirs technical expertise & discovers their
+          unfold potentials.
+
+          We invite all of you for E- registration for getting club membership.
+
+          Those who get their names enrolled will be able to attend Seminars, workshops and expert lectures arranged
+          time to time under the flagship of club.
+        </p>
+      </div>
+
+      <div class="col-lg-3 col-sm-3 col-md-3">
+        <img src="images/sv.jfif"
+          style=" width:270px ; height: 250px; border-radius: 10px; box-shadow: 4px 7px 7px 5px gray; display: block; margin-left: auto;   margin-right: auto;"
+          alt="">
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </section>
+
+  <hr>
+
+  <section class="sv-tech-club" style="margin-top: 20px;">
+
+
+    <h2 style="text-align: center; letter-spacing: 2px; font-weight: 800; color: orange; text-decoration: underline; ">
+      SRUJAN (The Activity Club) </h2>
+
+    <div class="row" style="margin-top: 20px;">
+
+
+      <div class="col-lg-3 col-sm-3 col-md-3">
+        <div id="adhar-bro">
+          <div class="card-body" id="sidebar">
+            <a class="btnside" href="https://forms.gle/QMrGN76YAAkhsaqs5">
+              <button id="button-ad" class="bt"> Register for the club
+              </button>
+            </a>
+            <br>
+            <a class="btnside" href="events.html">
+              <button id="button-e" class="bt">EVENTS </button>
+            </a>
+            <br>
+
+            <br>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-6 col-md-6">
+        <p style="text-align: justify; font-size: 22px;">
+
+
+          “SRUJAN” – THE HOBBY CLUB encourages students with an interest in perform tic realm either as on stage or off
+          stage contributor. The club is designed to provide a venue for exploration of various aspects in the perform
+          tic forum for the exchange of ideas amongst students who share a common interest. Students who enjoy all
+          aspects of the performing arts (singing, dancing and acting) are encouraged to join the club as they learn the
+          skills and rehearse for each spectacular show.
+
+          In addition, the organization grooms students to harness creativity effectively with a variety of different
+          contests or workshops and exercises so as to benefit an individual's skill and competence as a performer.
+
+          In order to facilitate a culture of bonding amongst our batches, it is encouraged that the students are part
+          of a broad array of co-curricular activities and recreational clubs to enhance our students experience in the
+          campus. Building Communities beyond Class rooms and explore one’s professional interests in such activities
+          will help them regain self confidence and achieve greater heights. In essence, these clubs will give a soul to
+          the campus.
+
+          We invite all of you for E- registration for getting club membership.
+
+          Those who get their names enrolled will be able to attend the activities arranged time to time under the
+          flagship of club.
+        </p>
+      </div>
+
+      <div class="col-lg-3 col-sm-3 col-md-3">
+        <img src="images/srujan.jfif"
+        style=" width:270px ; height: 250px; border-radius: 10px; box-shadow: 4px 7px 7px 5px gray; display: block; margin-left: auto;   margin-right: auto;"
+        alt="">
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </section>
+  <hr>
+  <section class="sv-tech-club" style="margin-top: 20px;">
+
+
+    <h2 style="text-align: center; letter-spacing: 2px; font-weight: 800; color: orange; text-decoration: underline; ">
+      SABAL (The Sports Club) </h2>
+
+    <div class="row" style="margin-top: 20px;">
+
+
+      <div class="col-lg-3 col-sm-3 col-md-3">
+        <div id="adhar-bro">
+          <div class="card-body" id="sidebar">
+            <a class="btnside" href="https://forms.gle/QMrGN76YAAkhsaqs5">
+              <button id="button-ad" class="bt"> Register for the club
+              </button>
+            </a>
+            <br>
+            <a class="btnside" href="events.html">
+              <button id="button-e" class="bt">EVENTS </button>
+            </a>
+            <br>
+
+            <br>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-6 col-md-6">
+        <p style="text-align: justify; font-size: 22px;">
+
+
+          A healthy nation is always a wealthy nation. Therefore, it is necessary to put emphasis on sports.One can
+          think of a healthy mind only in a healthy body. Both physical and mental well being are the prerequisites of
+          great achievements in man’s life. Participation in sports and other physical activities can have many benefits
+          for children. Participation in organized sports offers the chance for youth to enhance their physical and
+          social skills. A balance should be maintained that matches the child’s maturity, skills, and their interests
+          with their sports participation.
+
+          Sports offer children a change from the monotony of their daily life.
+
+          Under Sabal – the SportsClu, “Hustle with heart” we planned different indoor and outdoor sports activities for
+          all students as well as staff member of Swami Vivekanand group of institution like cricket, football, kabaddi,
+          Kho-Kho etc.
+
+          Swami Vivekanad group of institution have separate playground with ample facility for volleyball, basketball,
+          football, kabaddi and kho-kho.
+        </p>
+      </div>
+
+      <div class="col-lg-3 col-sm-3 col-md-3">
+        <img src="images/sable.jfif"
+        style=" width:270px ; height: 250px; border-radius: 10px; box-shadow: 4px 7px 7px 5px gray; display: block; margin-left: auto;   margin-right: auto;"
+        alt="">
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </section>
+  <hr>
+
+  <section class="sv-tech-club" style="margin-top: 20px;">
+
+
+    <h2 style="text-align: center; letter-spacing: 2px; font-weight: 800; color: orange; text-decoration: underline; ">
+      Vivacious Entrepreneurship Club
+    </h2>
+
+    <div class="row" style="margin-top: 20px;">
+
+
+      <div class="col-lg-3 col-sm-3 col-md-3">
+        <div id="adhar-bro">
+          <div class="card-body" id="sidebar">
+            <a class="btnside" href="https://forms.gle/QMrGN76YAAkhsaqs5">
+              <button id="button-ad" class="bt"> Register for the club
+              </button>
+            </a>
+            <br>
+            <a class="btnside" href="events.html">
+              <button id="button-e" class="bt">EVENTS </button>
+            </a>
+            <br>
+
+            <br>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-6 col-md-6">
+        <p style="text-align: justify; font-size: 22px;">
+
+
+          Dear Students,
+
+          We Welcome All of you
+
+          Vivacious Entrepreneurship club is a vital platform for our students-
+
+          Those who are passionate about their dreams…….
+          Those who are interested to live their dreams and bring them in reality…….
+          Those who are able to think differently…….
+
+          Those who are capable to apply their innovative minds even in ordinary things…….
+
+          We invite all of you for E- registration for getting club membership.
+
+          Those who get their names enrolled will be able to attend workshops and expert lectures arranged time to time
+          under the flagship of club
+        </p>
+      </div>
+
+      <div class="col-lg-3 col-sm-3 col-md-3">
+        <img src="images/vivacious.jfif"
+        style=" width:270px ; height: 250px; border-radius: 10px; box-shadow: 4px 7px 7px 5px gray; display: block; margin-left: auto;   margin-right: auto;"
+        alt="">
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </section>
+  <hr>
+
+  <footer class="grand-finale">
+
+
+    <div class="row">
+
+      <div class="col-sm-4">
+
+        <img src="images/logo.png" alt="" height="200" style="margin-left: 50px;">
+
+        <div class="con-down">
+          <h6 style="margin-left: 15px;">GET IN TOUCH</h6>
+
+          <h5 class="address"><i class="fa-sharp fa-solid fa-house"></i>
+            Swami Vivekanand Group of Institutions
+            Vivekanand Knowledge City, <br>
+            Khandwa Road, Indore</h5>
+          <p>Pin Code : 452020</p>
+          <p class="tel">
+            <i class="fa-solid fa-phone"></i>
+            Fax. 07324-405000
+          </p>
+
+          <p class="email"><i class="fa-solid fa-square-envelope"></i>
+            Email: info@svceindore.ac.in
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-sm-2">
+
+        <h3 style="text-decoration: underline; margin-top: 130px;">COLLEGE</h3>
+
+
+        <p><i class="fa-light fa-caret-right"></i> <a style="color: #999;"
+            href="https://www.google.co.in/maps/place/Swami+Vivekanand+College+of+Engineering/@22.5956559,75.8920702,3a,75y,6.85h,90t/data=!3m4!1e1!3m2!1sdNMtowU1R8cAAAQo8CdCQg!2e0!4m5!3m4!1s0x0:0x2bfb1b5e0875879b!8m2!3d22.5956577!4d75.8920688!6m1!1e1">
+            Infrastructure</p></a>
+        <p><i class="fa-light fa-caret-right"></i> <a style="color: #999;" href="111.118.241.147"> ERP Login</p></a>
+        <p><i class="fa-light fa-caret-right"></i> <a style="color: #999;" href="images/gg.mp4"> College Drone View</p>
+        </a>
+
+        <h3 style="text-decoration: underline; color:#999">COURSES</h3>
+
+        <p><i class="fa-light fa-caret-right"></i> <a style="color: #999;" href="enginnering-home.html">Engineering</p>
+        </a>
+        <p><i class="fa-light fa-caret-right"></i> <a style="color: #999;" href="pharma.html">Pharmacy</p></a>
+        <p><i class="fa-light fa-caret-right"></i> <a style="color: #999;" href="mba.html"> M.B.A</p></a>
+
+
+
+      </div>
+
+      <div class="col-sm-2">
+
+        <h3 style="color: #999; margin-top: 130px; margin-left: 50px; text-decoration: underline;">Updates</h3>
+
+
+        <p style="margin-left: 50px;"><i class="fa-light fa-caret-right"></i> <a style="color: #999;" href="events.html">
+            Events </p></a>
+        <p style="margin-left: 50px;"><i class="fa-light fa-caret-right"></i> <a style="color: #999;" href="club.html"> Clubs
+        </p></a>
+        <p style="margin-left: 50px;"><i class="fa-light fa-caret-right"></i> <a style="color: #999;" href=""> Anti
+            Ragging </p></a>
+        <p style="margin-left: 50px;"><i class="fa-light fa-caret-right"></i> <a style="color: #999;"
+            href="PLACEMENT.html"> Placements </p></a>
+        <p style="margin-left: 50px;"><i class="fa-light fa-caret-right"></i> <a style="color: #999;"
+            href="https://www.rgpv.ac.in/Uni/frm_ViewScheme.aspx"> Syllabus </p></a>
+        <p style="margin-left: 50px;"><i class="fa-light fa-caret-right"></i> <a style="color: #999;"
+            href="smart_class.html">Smart-Class_rooms</p></a>
+        <p style="margin-left: 50px;"><i class="fa-light fa-caret-right"></i> <a style="color: #999;"
+            href="download.html">Downloads</p></a>
+        <p style="margin-left: 50px;"><i class="fa-light fa-caret-right"></i> <a style="color: #999;"
+            href="library.html"> Library</p></a>
+
+
+
+
+      </div>
+
+      <div class="col-sm-2">
+        <h1 style="margin-top: 130px; text-decoration: underline;">FOLLOW US</h1>
+
+        <a href="https://www.instagram.com/swami_vivekanand_group/?hl=en" style="text-decoration: none;"
+          class="social-media-link"> <i style="margin-left: 8px; color: rebeccapurple;"
+            class="fa-brands fa-instagram fa-3x"></i> </a>
+        <a href="https://www.facebook.com/SwamiVivekanandaGroupofInstitution?ref=stream" style="text-decoration: none;"
+          class="social-media-link"> <i style="margin-left: 8px; color: rebeccapurple;"
+            class="fa-brands fa-facebook fa-3x"></i> </a>
+        <a href="https://www.youtube.com/channel/UCT_cK6srIOrB8-TqjZxpCXg/about" target="_blank"
+          style="text-decoration: none;" class="social-media-link"> <i style="margin-left: 8px; color: rebeccapurple;"
+            class="fa-brands fa-youtube fa-3x"></i> </a>
+        <a href="https://twitter.com/svgindore" style="text-decoration: none;" class="social-media-link"> <i
+            style="margin-left: 8px; color: rebeccapurple;" class="fa-brands fa-twitter fa-3x"></i> </a>
+
+        <a href="https://www.linkedin.com/company/swami-vivekanand-group-of-institutiojn/"
+          style="text-decoration: none;" class="social-media-link"> <i
+            style="margin-left: 8px; margin-top: 8px; color: rebeccapurple;" class="fa-brands fa-linkedin fa-3x"></i>
+        </a>
+        
+      </div>
+
+    </div>
+
+    <hr style="color: #999;">
+
+
+    <div class="row">
+
+      <div class="col-sm-6">
+
+        <p>Copyright © 2009-2023 Swami Vivekanand Groups of Institutions. All Rights Reserved
+        </p>
+      </div>
+
+      <div class="col-sm-6">
+        <P>Designed and developed by:</P>
+        <h3 style="font-family: cursive ;"> Harsh Jha & Adhar Sharma... <a href="mailto:redifiningautomation@gmail.com
+            "> <img src="images/RA.jpg" alt="" height="50"> </a></h3>
+      </div>
+
+
+
+    </div>
+
+  </footer>
+</body>
+
+</html>
