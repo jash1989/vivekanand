@@ -302,9 +302,19 @@ text-decoration: none;
   background-color: #29fd53;
 }
 @media (max-width: 1280px) {
+
+  #erp{
+    padding-inline-start: 0;
+  }
+
+  .logo img{
+    width: 309px;
+  }
+
   header {
     padding: 14px 2%;
     transition: .2s;
+    justify-content: space-evenly;
   }
 
   .navbar a {
@@ -538,4 +548,8 @@ padding: 5px;
   margin-left: 205px;
   padding-top: 200px;
 }
+
+/* #erp{
+  padding-inline-start: 150px;
+} */
 
